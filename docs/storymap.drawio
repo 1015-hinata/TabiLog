@@ -1,0 +1,76 @@
+<mxfile host="65bd71144e">
+    <diagram id="Wwtxpe2G-pz-EErl8obf" name="ページ-1">
+        <mxGraphModel dx="1495" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="-ij5WQvChPjvh6hRVthW-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;Open Sans, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;旅行の計画を立てる際に、場所が把握できずいいスポットを決めれないペインを、いい場所を決めれるようになるアプリ&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="30" width="370" x="150" y="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="-ij5WQvChPjvh6hRVthW-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="旅行を計画する人" vertex="1">
+                    <mxGeometry height="40" width="80" x="140" y="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="-ij5WQvChPjvh6hRVthW-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="行きたい都道府県をきめる" vertex="1">
+                    <mxGeometry height="50" width="100" x="140" y="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="-ij5WQvChPjvh6hRVthW-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="気になったところをピン止め保存す" vertex="1">
+                    <mxGeometry height="50" width="100" x="580" y="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="-ij5WQvChPjvh6hRVthW-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="行きたいところを結ぶ" vertex="1">
+                    <mxGeometry height="50" width="100" x="696" y="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="-ij5WQvChPjvh6hRVthW-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="効率のいい順番を考える" vertex="1">
+                    <mxGeometry height="50" width="100" x="806" y="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="-ij5WQvChPjvh6hRVthW-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="近くのスポットを探す" vertex="1">
+                    <mxGeometry height="50" width="100" x="360" y="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="-ij5WQvChPjvh6hRVthW-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="探す" vertex="1">
+                    <mxGeometry height="50" width="100" x="140" y="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="-ij5WQvChPjvh6hRVthW-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="決める" vertex="1">
+                    <mxGeometry height="50" width="100" x="580" y="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="-ij5WQvChPjvh6hRVthW-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="まとめる" vertex="1">
+                    <mxGeometry height="50" width="100" x="696" y="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="-ij5WQvChPjvh6hRVthW-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="自分の行きたいとこにきめる" vertex="1">
+                    <mxGeometry height="50" width="100" x="140" y="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="-ij5WQvChPjvh6hRVthW-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="行く都道府県をアップにする" vertex="1">
+                    <mxGeometry height="50" width="100" x="250" y="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="-ij5WQvChPjvh6hRVthW-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="ランダムで選べるようにする" vertex="1">
+                    <mxGeometry height="50" width="100" x="140" y="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="-ij5WQvChPjvh6hRVthW-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="拡大したマップにスポットを表示" vertex="1">
+                    <mxGeometry height="50" width="100" x="360" y="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="-ij5WQvChPjvh6hRVthW-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="電車やバスなどのダイヤを調べる" vertex="1">
+                    <mxGeometry height="50" width="100" x="806" y="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="-ij5WQvChPjvh6hRVthW-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="手動で保存する" vertex="1">
+                    <mxGeometry height="50" width="100" x="580" y="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="-ij5WQvChPjvh6hRVthW-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="使う公共交通機関の道で結ぶ" vertex="1">
+                    <mxGeometry height="50" width="100" x="696" y="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="-ij5WQvChPjvh6hRVthW-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="観光スポットを押すと詳細情報を閲覧できる" vertex="1">
+                    <mxGeometry height="50" width="100" x="364" y="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="-ij5WQvChPjvh6hRVthW-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="観光スポット付近の別のスポットを探す" vertex="1">
+                    <mxGeometry height="50" width="100" x="470" y="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="-ij5WQvChPjvh6hRVthW-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="有名なスポットを検索する" vertex="1">
+                    <mxGeometry height="50" width="100" x="250" y="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="dqmfX9oM0elC-mtp-740-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="時間帯を指定してダイヤを表示する" vertex="1">
+                    <mxGeometry height="50" width="100" x="916" y="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="dqmfX9oM0elC-mtp-740-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="リスト化して打ち込む必要をなくす" vertex="1">
+                    <mxGeometry height="50" width="100" x="140" y="370" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
