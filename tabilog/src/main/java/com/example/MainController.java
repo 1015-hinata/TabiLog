@@ -1,12 +1,16 @@
 package com.example;
 
 import java.util.List;
+import dev.langchain4j.data.message.UserMessage;
+import dev.langchain4j.model.googleai.GoogleAiGeminiChatModel;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextArea;
 
 public class MainController {
+    private static final String AI_MODEL = "gemini-2.5-flash-lite";
+
     private static final List<String> PREFECTURES = List.of(
             "北海道",
             "青森県", "岩手県", "宮城県", "秋田県", "山形県", "福島県",
@@ -30,8 +34,15 @@ public class MainController {
     @FXML
     private TextArea outputArea;
 
+    private GoogleAiGeminiChatModel gemini;
+
     @FXML
     private void initialize() {
+        gemini = GoogleAiGeminiChatModel.builder()
+                .apiKey(System.getenv("GEMINI_AI_KEY"))
+                .modelName(AI_MODEL)
+                .build();
+
         prefectureComboBox.getItems().addAll(PREFECTURES);
         prefectureComboBox.getSelectionModel().selectFirst();
 
@@ -46,6 +57,10 @@ public class MainController {
                 outputArea.appendText("\n");
             }
             outputArea.appendText(line);
+
+            String prompt = line + "1件について、「場所」と「おすすめ理由」を、1行ずつの文章で返して。";
+            String aiText = gemini.chat(UserMessage.from(prompt)).aiMessage().text();
+            outputArea.appendText("\n" + aiText);
         });
 
         clearButton.setOnAction(_ -> outputArea.clear());
