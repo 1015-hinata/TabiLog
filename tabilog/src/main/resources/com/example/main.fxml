@@ -12,5 +12,6 @@
       <Button fx:id="searchButton" layoutX="280.0" layoutY="56.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="54.0" text="検索" />
       <TextArea fx:id="outputArea" layoutX="36.0" layoutY="119.0" prefHeight="313.0" prefWidth="392.0" />
       <ComboBox fx:id="prefectureComboBox" layoutX="86.0" layoutY="56.0" prefHeight="26.0" prefWidth="90.0" />
+      <Button fx:id="clearButton" layoutX="376.0" layoutY="58.0" mnemonicParsing="false" text="クリア" />
    </children>
 </AnchorPane>

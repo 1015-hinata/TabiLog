@@ -25,6 +25,9 @@ public class MainController {
     private Button searchButton;
 
     @FXML
+    private Button clearButton;
+
+    @FXML
     private TextArea outputArea;
 
     @FXML
@@ -44,6 +47,8 @@ public class MainController {
             }
             outputArea.appendText(line);
         });
+
+        clearButton.setOnAction(_ -> outputArea.clear());
     }
 
     private String formatTourismLabel(String prefecture) {
@@ -54,4 +59,3 @@ public class MainController {
         return regionName + "の観光スポット";
     }
 }
-    
