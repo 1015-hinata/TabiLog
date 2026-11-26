@@ -31,6 +31,27 @@ public class MainController {
     private void initialize() {
         prefectureComboBox.getItems().addAll(PREFECTURES);
         prefectureComboBox.getSelectionModel().selectFirst();
+
+        searchButton.setOnAction(_ -> {
+            String selected = prefectureComboBox.getValue();
+            if (selected == null || selected.isBlank()) {
+                return;
+            }
+
+            String line = formatTourismLabel(selected);
+            if (!outputArea.getText().isEmpty()) {
+                outputArea.appendText("\n");
+            }
+            outputArea.appendText(line);
+        });
+    }
+
+    private String formatTourismLabel(String prefecture) {
+        String regionName = switch (prefecture) {
+            case "北海道", "東京都", "京都府", "大阪府" -> prefecture;
+            default -> prefecture.endsWith("県") ? prefecture : prefecture + "県";
+        };
+        return regionName + "の観光スポット";
     }
 }
     
